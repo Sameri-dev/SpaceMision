@@ -1,13 +1,4 @@
-# SpaceMisionPOO2
-
-Object-Oriented Programming II (Gpo 302)
-
-Project delivery – 1
-
-Samantha Erin Medina Munoz – A01712495
-18/05/2024.
-
-Profesora: Silvana
+# SpaceMision
 
 #Espanol
 
