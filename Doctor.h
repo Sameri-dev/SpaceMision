@@ -7,12 +7,10 @@ using namespace std;
 
 class Doctor : public Astronaut
 {
-    protected:
-        int medicine;
     public:
-        Doctor();
+        Doctor(string name, int health);
 
-        float heal();
+        void interact() override;
 
         virtual ~Doctor();
 };
