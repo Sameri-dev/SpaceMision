@@ -1,27 +1,31 @@
 #include "Astronaut.h"
 
-Astronaut::Astronaut()
-{
-    //ctor
-}
-
-void Astronaut::interact()
+Astronaut::Astronaut(string name, int salud) : name(name), health(health)
 {
 
 }
 
-float Astronaut::gainHealth()
+void Astronaut::Status()
 {
-
+    cout << "Crew status" << endl;
+    cout << endl << "Name: " << name << endl;
+    cout << "Health: " << health << "%" << endl;
 }
 
-float Astronaut::loseHealth()
+float Astronaut::getHealth()
 {
-
+    return health;
 }
+
+void Astronaut::setHealth(int newHealth)
+{
+    health = newHealth;
+}
+
 
 
 Astronaut::~Astronaut()
 {
     //dtor
 }
+
