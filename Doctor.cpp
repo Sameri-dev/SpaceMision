@@ -1,11 +1,11 @@
 #include "Doctor.h"
 
-Doctor::Doctor()
+Doctor::Doctor(string name, int health) : Astronaut(name, health)
 {
-    //ctor
+    cout << name << "healing the crew" << endl;
 }
 
-float Doctor::heal()
+void Doctor::interact()
 {
 
 }
