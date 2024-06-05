@@ -7,14 +7,10 @@ using namespace std;
 
 class Engineer : public Astronaut
 {
-    protected:
-        int construct();
-
     public:
-        Engineer();
+        Engineer(string name, int health);
 
-        float repair();
-        float worsen();
+        void interact() override;
 
         virtual ~Engineer();
 
