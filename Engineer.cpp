@@ -1,27 +1,17 @@
 #include "Engineer.h"
 
-Engineer::Engineer()
-{
-    //ctor
-}
-
-int Engineer::construct()
+Engineer::Engineer(string name, int health) : Astronaut(name, health)
 {
 
 }
 
-float Engineer::repair()
+void Engineer::interact()
 {
-
+    cout << name << "reparing the ship" << endl;
 }
-
-float Engineer::worsen()
-{
-
-}
-
 
 Engineer::~Engineer()
 {
     //dtor
 }
+
