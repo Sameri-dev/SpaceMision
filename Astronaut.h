@@ -1,21 +1,27 @@
-#ifndef LEADER_H
-#define LEADER_H
-#include "Astronaut.h"
+#ifndef ASTRONAUT_H
+#define ASTRONAUT_H
+#include <string>
+#include <iostream>
 
 using namespace std;
 
-class Leader : public Astronaut
+class Astronaut
 {
     protected:
-        bool lead();
+        string name;
+        float health;
 
     public:
-        Leader();
+        Astronaut(string name, int salud);
 
-        bool checkife();
+        virtual void Status();
 
-        virtual ~Leader();
+        virtual void interact() = 0;
 
+        float getHealth();
+        void setHealth(int newHealth);
+
+        virtual ~Astronaut();
 };
 
-#endif // LEADER_H
+#endif // ASTRONAUT_H
