@@ -12,22 +12,17 @@ Clases:
 Suprema 'Astronauta': base para los otros roles de los tripulantes cada uno es diferente y interactuan de diferentes formas, la cantidad de salud que tengan afectara en los resultados de sus tareas (manejados por porcentajes).
 sub 'Ingeniero': cada cierto tiempo puede reparar o empeorar la nave (quita o gana energia)
 sub 'Doctor': cura otros pasajeros (da salud a cambio de salud de el)
-sub 'Investigador': cada ciertas rondas ganan energia o comida.
-sub 'Lider': si el lider muere acaba el juego.
 
 Suprema 'Suministro': base de todos los suministros (manejados por porcentajes).
 sub 'Comida': da salud a pasajeros.
 sub 'Energia': da energia a la nave
 
-Suprema 'Nave': el escenario donde ocurre todo, dependiendo de los lugares donde se dirija la energia se obtendran diferentes resultados (manejados por porcentajes).
-sub 'EscudosSolares': proteccion a eventos externos.
-sub 'Propulsores': reduce la cantidad de dias.
-sub 'Cabina': reduce la cantidad de eventos.
-sub 'Enfermeria': ayuda a mejorar la salud de todos los pasajeros.
+Suprema 'Nave': el escenario donde ocurre todo, puede ganar o perder energia (manejados por porcentajes).
 
-Suprema 'Evento': los eventos externos e internos que pueden afectar positiva o negativamente la operacion (manejados por porcentajes).
+Suprema 'Evento': los eventos externos e internos que pueden afectar positiva o negativamente la operacion (manejados por porcentajes y de manera aleatoria).
 sub 'Enfermedad': todos los pasajeros se enferman excepto el doctor, reduce la salud.
-sub 'Meteoro': ataque externo que reduce la energia de la nave.
+sub 'Apagon': Se pierde energia por ciertos dias (el ingeniero lo repara).
+sub 'AgujeroNegro': Reduce la cantidad de dias, por lo menos una vez por juego. O lo incrementa, no es necesario que aparezca y es de manera random la cantidad de dias ganaran o perderan.
 
 El juego está diseñado para ayudar al jugador con la gestión de recursos, organización, planeación y adaptación en situaciones de emergencia. También demostrar la importancia de las misiones espaciales y del sector de investigación espacial y porque ocupa tantas personas, recursos, planeación y visión además de interesar a más personas en el tema.
 
