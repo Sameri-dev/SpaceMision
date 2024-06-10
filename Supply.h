@@ -1,6 +1,8 @@
 #ifndef SUPPLY_H
 #define SUPPLY_H
 #include <iostream>
+#include "Astronaut.h"
+#include "Ship.h"
 
 using namespace std;
 
@@ -11,9 +13,8 @@ class Supply
     public:
         Supply(int amount);
 
-        virtual void use() = 0;
-
-        virtual ~Supply();
+        int getAmount();
+        void setAmount(int newAmount);
 };
 
 #endif // SUPPLY_H
