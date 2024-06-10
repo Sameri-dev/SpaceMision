@@ -10,7 +10,7 @@ class Food : public Supply
     public:
         Food(int amount);
 
-        void use() override;
+        void use(Astronaut &astronauta);
 
         virtual ~Food();
 };
