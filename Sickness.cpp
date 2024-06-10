@@ -9,9 +9,3 @@ void Sickness::happen(Ship &nave, vector<Astronaut*>& tripulacion)
     }
     cout << "A disease outbreak occurred" << endl;
 }
-
-
-Sickness::~Sickness()
-{
-    //dtor
-}
