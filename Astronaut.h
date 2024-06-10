@@ -2,6 +2,7 @@
 #define ASTRONAUT_H
 #include <string>
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
@@ -18,10 +19,9 @@ class Astronaut
 
         virtual void interact() = 0;
 
-        float getHealth();
-        void setHealth(int newHealth);
+        float getHealth(int amount);
 
-        virtual ~Astronaut();
+        void setHealth(int newHealth);
 };
 
 #endif // ASTRONAUT_H
