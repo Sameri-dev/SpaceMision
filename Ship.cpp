@@ -23,9 +23,3 @@ int Ship::getEnergy()
 {
     return Energy;
 }
-
-
-Ship::~Ship()
-{
-    //dtor
-}
