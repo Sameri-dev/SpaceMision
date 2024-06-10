@@ -11,9 +11,3 @@ void BlackHole::happen(Ship& nave, vector<Astronaut*>& tripulacion)
 
     cout << "The ship has passed through a black hole, changing mission days to: " << adjustDays << endl;
 }
-
-
-BlackHole::~BlackHole()
-{
-    //dtor
-}
