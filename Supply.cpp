@@ -2,16 +2,15 @@
 
 Supply::Supply(int amount) : amount(amount)
 {
-
+    cout << amount;
 }
 
-void Supply::use()
+int Supply::getAmount()
 {
-
+    return amount;
 }
 
-
-Supply::~Supply()
+void Supply::setAmount(int newAmount)
 {
-    //dtor
+    amount = newAmount;
 }
