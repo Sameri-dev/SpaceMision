@@ -12,7 +12,7 @@ void Astronaut::Status()
     cout << "Health: " << health << "%" << endl;
 }
 
-float Astronaut::getHealth()
+float Astronaut::getHealth(int amount)
 {
     return health;
 }
@@ -21,11 +21,3 @@ void Astronaut::setHealth(int newHealth)
 {
     health = newHealth;
 }
-
-
-
-Astronaut::~Astronaut()
-{
-    //dtor
-}
-
