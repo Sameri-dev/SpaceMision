@@ -12,9 +12,7 @@ class Sickness : public Event
     public:
         Sickness();
 
-        void happen(Ship &nave, vector<Astronaut*> &tripulacion) override;
-
-        virtual ~Sickness();
+        void happen(Ship &nave, vector<Astronaut*> &tripulacion);
 
 };
 
