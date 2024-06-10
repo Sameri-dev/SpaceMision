@@ -13,8 +13,6 @@ class BlackHole : public Event
         BlackHole();
 
         void happen(Ship &nave, vector<Astronaut*> &tripulacion) override;
-
-        virtual ~BlackHole();
 };
 
 #endif // BLACKHOLE_H
