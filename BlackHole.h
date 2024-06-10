@@ -1,18 +1,16 @@
-#ifndef BLACKHOLE_H
-#define BLACKHOLE_H
+#ifndef BLACKOUT_H
+#define BLACKOUT_H
 #include <iostream>
-#include <cstdlib>
-
 #include "Event.h"
 
 using namespace std;
 
-class BlackHole : public Event
+class BlackOut: public Event
 {
     public:
-        BlackHole();
+        BlackOut();
 
         void happen(Ship &nave, vector<Astronaut*> &tripulacion) override;
 };
 
-#endif // BLACKHOLE_H
+#endif // BLACKOUT_H
