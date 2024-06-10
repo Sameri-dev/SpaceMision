@@ -18,7 +18,6 @@ class Ship
 
         int getEnergy();
 
-        virtual ~Ship();
 };
 
 #endif // SHIP_H
