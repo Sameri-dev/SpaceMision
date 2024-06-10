@@ -15,7 +15,6 @@ class Event
 
         virtual void happen(Ship &nave, vector<Astronaut*> &tripulacion) = 0;
 
-        virtual ~Event();
 };
 
 #endif // EVENT_H
