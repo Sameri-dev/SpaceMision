@@ -12,7 +12,7 @@ class Energy : public Supply
     public:
         Energy(int amount);
 
-        void use() override;
+        void use(Ship &nave);
 
         virtual ~Energy();
 };
